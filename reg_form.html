@@ -1,0 +1,71 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body color:blue;>
+    <h2 style="color:blue;"align="center"><u>MLPLUS REGISTRATION FORM</u></h2>
+    <form class="" action="index.html" method="get" enctype="multipart/form-data">
+      <fieldset>
+        <legend><B>PERSONAL INFORMATION</B></legend>
+        PASSPORT PHOTOGRAPH: <br>
+        <input type="file" name="image" value=""accept="image/jpeg image/gif image/x-png"> <br>
+        TITLE:<br>
+          <label><input type="RADIO" name="TITLE" value="MS">MS</label>
+          <label><input type="radio" name="TITLE" value="MISS">MISS</label>
+          <label><input type="radio" name="TITLE" value="Mr">Mr</label>
+          <label><input type="radio" name="TITLE" value="Mrs">Mrs</label> <br>
+
+        <label for="username">username:</label>
+        <input type="text" name="username" id="username" value=""><br>
+        <b>SURNAME</b>:<br>
+        <input required type="text" name="surname"><br>
+        <b>FIRST NAME</b>:<br>
+        <b><input required type="text" name="first name" placeholder=""value=""><br>
+        <b>MIDDLE NAME</b>:<br>
+        <input required type="text" name="middle name"  value="" placeholder=""><br>
+        <b>EMAIL ADDRESS</b>:<br>
+        <input required type="email" name="email" value="" placeholder="email"><br>
+        <b>DATE OF BIRTH</b>:<br>
+        <input required type="date" name="date of birth" value="D.O.B"> <br>
+        <label for="choose username">choose username:</label><br>
+        <input type="text" name="choose username" id="choose username" value=""><br>
+        <b>FAVOURITE COLOR</b>: <br>
+        <input type="color" name="FAVOURITE COLOR" value="CHOOSE"> <br>
+        <b>COUNTR OF ORIGIN<b>:<br>
+        <select class="" name="COUNTRY" size="1">
+          <option value="NG">NIGERIA</option>
+          <option value="SM">SOMALIA</option>
+          <option value="">UGANDA</option>
+          <option value="">CAMEROON</option>
+          <option value="">SENEGAL</option>
+          <option value="">MALI</option>
+          <option value="">GUINEA</option>
+          <option value="">GHANA</option>
+          <option value="">SOUTH AFRICA</option>
+          <option value="">EGYPT</option>
+          <option value="">JAMAICA</option>
+          <option value="">GABON</option>
+        </select>
+      </fieldset>
+         <fieldset>
+           <legend><B>CONTACT INFORMATION</B></legend>
+           TELEPHONE NUMBER 1:
+           <input required minlength="11" maxlength="14" type="tel" name="" value="">
+           TELEPHONE NUMBER 2:
+           <input minlength="11" maxlength="14" type="TEL" ><br>
+           CURRENT HOME ADDRESS:<br>
+           <textarea required name="ADDRESS" rows="8" cols="80"></textarea> <br>
+           PERMANENT HOME ADDRESS: <br>
+           <textarea required name="P.ADDRESS" rows="8" cols="80"></textarea> <br>
+           POSTAL CODE: <br>
+           <input required type="text" name="text" value=""><br>
+           
+         </fieldset>
+         <input type="reset" name="reset" value="reset">
+         <input type="submit" name="submit" value="submit">
+    </form>
+  </body>
+</html>
